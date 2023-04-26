@@ -1,0 +1,21 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+/* toto je černá magie, na kterou nešahej! */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+/*
+BARVY
+czechitas                 #b92e81
+šedé pozadí stránky       #bdc3c7
+tmavé pozadí pod textem   #31363b
+dělítka mezi tlačítky     #3f464d
+tlačítko portfolio        #e74c3c
+tlačítko facebook         #3b5998
+tlačítko twitter          #1da1f2
+*/
+
+
+body {
+  background-color: #bdc3c7;
+}
+
